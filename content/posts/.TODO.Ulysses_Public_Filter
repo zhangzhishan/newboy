@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>query</key>
+	<dict>
+		<key>conditions</key>
+		<array>
+			<dict>
+				<key>allRequired</key>
+				<true/>
+				<key>conditionType</key>
+				<string>KeywordSearch</string>
+				<key>keywords</key>
+				<array>
+					<string>todo</string>
+				</array>
+				<key>matchPrefixes</key>
+				<false/>
+			</dict>
+		</array>
+		<key>options</key>
+		<array/>
+		<key>requireAll</key>
+		<false/>
+	</dict>
+	<key>resolutionData</key>
+	<dict>
+		<key>query</key>
+		<real>509856665.563573</real>
+	</dict>
+	<key>storeFormatVersion</key>
+	<integer>1</integer>
+	<key>versioning</key>
+	<dict>
+		<key>query</key>
+		<dict>
+			<key>af98220064979f9a7684cfca178b434df4b98b49be4f6d77e50965e3c6437c68</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

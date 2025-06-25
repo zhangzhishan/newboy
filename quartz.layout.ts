@@ -5,10 +5,24 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [Component.Comments({
+    provider: 'giscus',
+    options: {
+      // from data-repo
+      repo: 'morrowind-modding/morrowind-modding.github.io',
+      // from data-repo-id
+      repoId: 'R_kgDOLP1-Jw',
+      // from data-category
+      category: 'Announcements',
+      // from data-category-id
+      categoryId: 'DIC_kwDOLP1-J84CdRF8',
+      reactionsEnabled: true,
+    }
+  }),
+  ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
+      GitHub: "https://github.com/zhangzhishan/newboy",
       "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
