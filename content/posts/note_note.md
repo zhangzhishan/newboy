@@ -34,11 +34,11 @@ zhangzhishan’s starred repositories (http://rsshub.app/github/starred_repos/zh
 
 `/sub` 命令除了直接订阅到Bot外, 当你把该Bot加到某个 Channel 之后, 可以通过 `/sub channelid url` 这个命令把通知直接订阅到某个 Channel中去.
 
-![sub to channel](/images/20200509220713780_11570.png)
+![[20200509220713780_11570.png]]
 
 这里当我们需要 ChannleID, 这个的获得也非常方便, 我们可以随便转一条 Channel 中的内容到 [@getidsbot](https://t.me/getidsbot) 即可, 结果如下图.
 
-![getidsbot](/images/20200509220950847_16848.png)
+![[20200509220950847_16848.png]]
 
 这里就可以得到我们的ID了. 然后就可以方便的把RSS更新 push 我们的 channel 了.
 

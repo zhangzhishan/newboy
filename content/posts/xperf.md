@@ -9,7 +9,7 @@ date: 2020-06-16 19:06:00
 ## Introduction
 Xperf 的官方文档可以参考[这里](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/xperf/detailed-walkthrough), 它是 Windows Performance Analyzer (WPA) 里面的一个重要组件, 另一个比较好用的组件是 F1 Profiler, 利用 F1Profiler 可以很方便地看到每一部分的 CPU usage,  inclusive 和 exclusive 的, 可以很具体到是哪一个函数,甚至是哪一行用了比较多的CPU.
 
-![f1profiler](/images/20200616192136939_14753.png)
+![[20200616192136939_14753.png]]
 
 但是 F1Profiler 的一个缺点是由于其是基于统计的信息,所以不能很好的了解一些具体的某些时段发生的事情,另外就是其主要信息是关于 CPU 的采样, 所以对于其余的例如IO方面,内存方面的问题就有些力不从心了.  而基于 event 信息的 xperf,就没有这些问题了.
 
@@ -22,7 +22,7 @@ xperf -on FileIO+FILENAME+PROFILE -maxbuffers 1024
 ```
 这里其中`-on`后面的参数是可以根据自己的情况修改的, 具体包含哪些可以通过 `xperf -providers KF KG` 命令得到. 其中 `KF` 是所有的 kernal flags, 而 `KG` 则是一些组合, 例如 `Latency` 就等价于 `PROC_THREAD+LOADER+DISK_IO+HARD_FAULTS+DPC+INTERRUPT+CSWITCH+PROFILE`, 一些典型的 Flag.
 
-![providers flag](/images/20200617200954656_15520.png)
+![[20200617200954656_15520.png]]
 
 在 `xperf` 开始工作之后, 我们就可以启动我们想要 profiling 的应用程序, 由于 xperf 的设计问题, 目前我们不能单独的指定只profile 和某个 process 相关的信息, 所以会得到的相当于那个时间段之内全量的信息. 在采集一段时间后, 我们可以简单的通过 `xperf -d D:\xperf_trace_log.etl` 来把output 输出到指定路径指定文件.
 
@@ -30,7 +30,7 @@ xperf -on FileIO+FILENAME+PROFILE -maxbuffers 1024
 ### GUI
 最简单查看的方式就是直接双击打开， 就会在左侧列出一些小图，你也可以选择一些指定的细节到新建的view里面去。主界面大概是这样子的:
 
-![main window WPA](/images/20200617203633264_30648.png)
+![[20200617203633264_30648.png]]
 
 但是这种方式有一些缺点,首先第一个是当数据量很大的时候, 每个图都要等很长一段时间, 尤其是很多图的信息其实并不是你想要的. 另外一个,虽然从他生成的一些图里面可以很明显地看到一些问题, 但是有很多时候, 我们需要自己对这些单条的 event log 做一些分析统计和处理, 显然在 GUI 里面就不是很方便了.
 ### CLI
@@ -93,7 +93,7 @@ IACB - Number of IOs that initialized after start time and completed before end 
 
 也可以用 `-overlap` 命令获得IO们的 overlap 信息.
 
-![io overlap](/images/20200617205359859_17129.png)
+![[20200617205359859_17129.png]]
 
 ## Summary
 这里介绍了一些很基本的使用, 使用是一个很简单的事情, 重要的是如何一点点的找到思路,做哪些检测,然后来找到问题, 后面应该会结合一些实际案例来讲解一下 performance tuning 的思路.

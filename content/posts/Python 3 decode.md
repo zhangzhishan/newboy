@@ -65,7 +65,7 @@ b'\xe5\x91\xbc\xe5\x91\xbc\xe5\x91\xbc\xe5\xb1\xb1'
 
 计算机方便理解的是 bytes 类型，而人类方便理解的是 str 类型，那么我们就可以方便的构造一个三明治模型，
 
-![unicode sandwich](/images/unicodesan_1538722256_26901.png)
+![[unicodesan_1538722256_26901.png]]
 
 外面与计算机接触的部分是 bytes，而我们自己处理的部分是 unicode，一方面 Python 3 的默认为 unicode，更加方便我们处理，另一方面我们也可以直观的理解，不需要多次乱七八糟的转化。
 
