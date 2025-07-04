@@ -1,0 +1,133 @@
+{
+  "main": {
+    "id": "629cfe5d71c9204a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab504e90bb1a0ca3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_drafts/backup method.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ef6aace915837662",
+    "type": "split",
+    "children": [
+      {
+        "id": "078ffb71b1af0083",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b413c475524b1401",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f7746db6c03b0fae",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "sync",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "48715bb57dd4a9f0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5fc66287008832e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "b396d333792a433e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64dbf5108c58edec",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_drafts/backup method.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e1c0ab025d4be74b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "44d4e97d0edce9e0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_drafts/backup method.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 307.5
+  },
+  "active": "ab504e90bb1a0ca3",
+  "lastOpenFiles": [
+    "_posts/windows and linux porting cpp.md",
+    "_posts/C-concurrency.md",
+    "_drafts/SPSCQueue.md",
+    "_drafts/Untitled.md",
+    "_drafts/problems2.md",
+    "_posts/lockfreequeue.md",
+    "_posts/arena allocator.md",
+    "_posts/2020summary.md",
+    "_posts/面试内容整理--C语言.md",
+    "_posts/面试中思路性质问题.md"
+  ]
+}
