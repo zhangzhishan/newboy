@@ -2,7 +2,7 @@
   "obsidianCss": true,
   "vimMode": false,
   "newFileLocation": "current",
-  "attachmentFolderPath": "./",
+  "attachmentFolderPath": "attachments",
   "alwaysUpdateLinks": true,
   "trashOption": "system",
   "useMarkdownLinks": false

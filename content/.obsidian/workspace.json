@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/量价交易.md",
+                "file": "posts/量价交易.md",
                 "mode": "source",
                 "source": false
               },
@@ -185,8 +185,20 @@
   },
   "active": "2f1fa58d45ef9799",
   "lastOpenFiles": [
+    "attachments/20201221140534361_2505.png",
+    "attachments/unicodesan_1538722256_26901.png",
+    "attachments/example.png",
+    "attachments/20200630225937167_25109.jpg",
+    "attachments/20200630220036926_1155.png",
+    "attachments/20200630213846900_23080.png",
+    "attachments/20200630213303894_17.png",
+    "attachments/20200630212740668_1724.png",
+    "attachments/20200630211449329_14770.png",
+    "attachments/20200628144519909_19384.png",
+    "attachments/20200628143602516_2846.png",
+    "attachments",
     "private/problems4.md",
-    "private/量价交易.md",
+    "posts/量价交易.md",
     "posts/flag.md",
     "posts/6flag_summary.md",
     "posts/Vietnam_travel.md",
@@ -194,7 +206,6 @@
     "posts/mysql-e4-b8-80-e7-a7-8d-e6-8f-92-e5-85-a5-e7-94-a8-e6-88-b7-e6-96-b9-e6-b3-95-e7-9a-84-e9-94-99-e8-af-af.md",
     "posts/_mm_prefetch.md",
     "index.md",
-    "_posts/images/example.png",
     "_posts/LLM Background Diagnostics Extension.md",
     "_posts/bakcup.md",
     "_drafts/backup method.md",
@@ -204,7 +215,6 @@
     "_drafts/problems1.md",
     "_drafts/english_word.md",
     "_drafts/Arch linus on wsl.md",
-    "_drafts/images/20201221140534361_2505.png",
     "_drafts/beancount.md",
     "_posts/2020summary.md",
     "_posts/_mm_prefetch.md",
@@ -212,7 +222,6 @@
     "Untitled.md",
     "_drafts/刷题总结.md",
     "_drafts/XSS攻击——跨站脚本攻击与防御-第一章-跨站脚本原理-3-XML.md",
-    "_drafts/ubunutu_service.md",
     "template"
   ]
 }
