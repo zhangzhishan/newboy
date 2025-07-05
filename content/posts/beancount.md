@@ -1,4 +1,9 @@
-# beancount
+---
+title: beancount
+tag:
+date: 2025-06-23 22:13
+---
+
 分摊插件: [amortize_over](https://gist.github.com/wzyboy/7dbf207c9a9d42ac2549232deb9a95d9)
 
 ```

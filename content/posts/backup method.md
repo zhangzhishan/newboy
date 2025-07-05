@@ -1,4 +1,10 @@
-# backup method
+---
+title: backup method
+tags:
+  - backup
+date: 2025-06-23 22:13
+---
+
 个人备份设置.
 
 tools and services:

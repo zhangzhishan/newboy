@@ -1,4 +1,10 @@
-# systemd
+---
+title: systemd
+tags:
+  - Linux
+date: 2025-06-23 22:13
+---
+
 A good [blog](https://wiki.archlinux.org/index.php/Systemd) for systemd.
 
 Some notes:
@@ -46,7 +52,7 @@ we can also add a `Install` section, `WantedBy=` is the target that this unit is
 
 There is a `Timer` section to do some timer work. Some settings can be used.
 
-|       Setting       |                                                                                                                                                                                             Meaning                                                                                                                                                                                             |
+| Setting             | Meaning                                                                                                                                                                                                                                                                                                                                                                                         |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | OnActiveSec=        | Defines a timer relative to the moment the timer unit itself is activated.                                                                                                                                                                                                                                                                                                                      |
 | OnBootSec=          | Defines a timer relative to when the machine was booted up. In containers, for the system manager instance, this is mapped to OnStartupSec=, making both equivalent.                                                                                                                                                                                                                            |
@@ -57,5 +63,5 @@ There is a `Timer` section to do some timer work. Some settings can be used.
 | AccuracySec=        | Specify the accuracy the timer shall elapse with. Defaults to 1min.                                                                                                                                                                                                                                                                                                                             |
 | RandomizedDelaySec= | Delay the timer by a randomly selected, evenly distributed amount of time between 0 and the specified time value. Defaults to 0, indicating that no randomized delay shall be applied.                                                                                                                                                                                                          |
 | Unit=               | The unit to activate when this timer elapses. The argument is a unit name, whose suffix is not ".timer".                                                                                                                                                                                                                                                                                        |
-| Persistent=         |                                                                                                                                                                                                                                                                                                                                                                                                 Takes a boolean argument. If true, the time when the service unit was last triggered is stored on disk. |
+| Persistent=         | Takes a boolean argument. If true, the time when the service unit was last triggered is stored on disk.                                                                                                                                                                                                                                                                                         |
 
