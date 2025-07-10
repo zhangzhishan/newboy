@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/Browne)-学会提问（原书第12版）.md",
+                "file": "private/problems1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Browne)-学会提问（原书第12版）"
+              "title": "problems1"
             }
           }
         ],
@@ -186,13 +186,13 @@
   },
   "active": "2f1fa58d45ef9799",
   "lastOpenFiles": [
+    "private/Browne)-学会提问（原书第12版）.md",
     "private/XSS攻击——跨站脚本攻击与防御-第一章-跨站脚本原理-3-XML.md",
     "private/Unknown-专业投机原理_珍藏版_华章经典金融投资系列_etc_Z_Library.md",
     "private/蒂姆·费里斯-巨人的方法-- 蒂姆·费里斯 -- 2021 -- 中信出版集团 -- 7521734777 -- 1ed7c20bba91f6991c4b3f17733f7ce2 -- Anna’s Archive.md",
     "private/劳伦斯·M·克劳斯-Li Cha De _Fei Man Chuan - Lao Lun Si _M_Ke Lao Si.md",
     "private/[美]尼尔·斯蒂芬森-Xue Beng - (Mei )Ni Er _Si Di Fen Sen.md",
     "private/埃里克·乔根森-纳瓦尔宝典：财富与幸福指南.md",
-    "private/Browne)-学会提问（原书第12版）.md",
     "private/迈克尔·J·戴蒙德-何以为父_影响彼此一生的父子关系_迈克尔J戴蒙德_Z_Library.md",
     "private/Unknown-CppCoreGuidelines.md",
     "private/Sutter-C++ safety, in context.md",
