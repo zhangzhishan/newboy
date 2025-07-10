@@ -33,13 +33,14 @@ export default ((userOpts?: Partial<Options>) => {
     cfg,
   }: QuartzComponentProps) => {
     const opts = { ...defaultOptions(cfg), ...userOpts }
-    const pages = allFiles.filter(opts.filter).sort(opts.sort)
-    const remaining = Math.max(0, pages.length - opts.limit)
+    const pages = allFiles.filter(opts.filter).sort(opts.sort).filter(f => f.slug !== fileData.slug)
+    const list = pages.slice(0, opts.limit === -1 ? undefined : opts.limit)
+    const remaining = pages.length - list.length
     return (
       <div class={classNames(displayClass, "recent-notes")}>
         <h3>{opts.title ?? i18n(cfg.locale).components.recentNotes.title}</h3>
         <ul class="recent-ul">
-          {pages.slice(0, opts.limit).map((page) => {
+          {list.map((page) => {
             const title = page.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
             const tags = page.frontmatter?.tags ?? []
 

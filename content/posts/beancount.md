@@ -25,7 +25,7 @@ plugin "plugins.zerosum" "{
 
 朋友之间的借贷我也是记在 Equity 里的。比如我前段时间找朋友玩，因为要买门票什么的，我就全部先让朋友帮我付了，最后我走的时候再让朋友给我出个总账，我写个支票一次性还清。这时候朋友相当于一个信用卡，理论上应该记在 Liabilities:Payable:Alice 里。但是可能同一个朋友，下次来找我玩了呢？那我又得记 Assets:Receivables:Alice 了。于是我就把这两个账户合并成 Equity:ARAP:Alice 了
 
-![accounts](_v_images/20190717094945054_28944.png)
+![[20190717094945054_28944.png]]
 
 sample query string:
 ```

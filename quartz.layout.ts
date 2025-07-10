@@ -9,21 +9,20 @@ export const sharedPageComponents: SharedLayout = {
     provider: 'giscus',
     options: {
       // from data-repo
-      repo: 'morrowind-modding/morrowind-modding.github.io',
+      repo: 'zhangzhishan/newboy',
       // from data-repo-id
-      repoId: 'R_kgDOLP1-Jw',
+      repoId: 'R_kgDOPAeY3A',
       // from data-category
-      category: 'Announcements',
+      category: 'General',
       // from data-category-id
-      categoryId: 'DIC_kwDOLP1-J84CdRF8',
+      categoryId: 'DIC_kwDOPAeY3M4CsxDX',
       reactionsEnabled: true,
     }
   }),
   ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/zhangzhishan/newboy",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/zhangzhishan",
     },
   }),
 }
@@ -38,6 +37,16 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    Component.ConditionalRender({
+      component: Component.RecentNotes({
+        title: "Recent Writing",
+        limit: -1,
+        sort: (f1, f2) =>
+          (f2.dates?.published.getTime() ?? Number.MAX_SAFE_INTEGER) -
+          (f1.dates?.published.getTime() ?? Number.MIN_SAFE_INTEGER),
+      }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
   ],
   left: [
     Component.PageTitle(),
@@ -53,6 +62,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
+    Component.DesktopOnly(Component.RecentNotes()),
   ],
   right: [
     Component.Graph(),
@@ -76,7 +86,8 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.DesktopOnly(Component.RecentNotes()),
+    // Component.Explorer(),
   ],
   right: [],
 }

@@ -1,8 +1,9 @@
-----
+---
 title: Mysql password expired
 tags: Mysql
 date: 2 Dec 2016 7:01 PM
-----
+---
+
 今天登录网页，突然出现了这个问题
 
 ```
